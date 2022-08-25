@@ -1,0 +1,75 @@
+in 02_data_combined_with_demographics wurden die Experiment-Rohdaten ergänzt um demografische Daten; Codierung wie folgend definiert (07/2022):
+
+INFO zum Datensatz demographics_questionaire
+
+0 = falsch; 1 = wahr
+
+
+_Bezeichnungen:
+ID  = Versuchspersonencode
+age = Alter
+sex = Geschlecht
+edu = höchster Bildungsabschluss
+occ = aktuelle berufliche Tätigkeit (occupation)
+ela = Studienfach / Ausbildungsberuf / Beruf (elaboration)
+pat = neurologische oder psychiatrische Erkrankung
+ill = an Covid19 erkrankt
+prt = positiver Schnelltest (Positive Rapid Test)
+pcr = positiver PCR-Test
+pab = positiver Antikörpernachweis (Positive AntiBody)
+
+
+_Mögliche Werte:
+
+ID
+	#Code aus 8 Buchstaben und Ziffern
+
+age
+	#zweistellige Jahreszahl
+
+sex
+	f = female
+	m = male
+	d = divers
+	o = other
+
+edu
+	0 = Realschulabschluss / MSA
+	1 = Abitur / Allgemein Hochschulreife
+	2 = Fachabitur
+	3 = abgeschlossene Berufsausbildung
+	4 = abgeschlossenes BA-Studium
+	5 = abgeschlossenes MA-Studium oder gleichwertig
+
+occ
+	0 = Studium
+	1 = Ausbildung
+	2 = berufstätig
+	3 = arbeitslos / Arbeit suchend
+	4 = etwas anderes
+
+ela
+	# Beruf / Studienfach als Zusatzangabe für occ
+
+pat
+	0 = keine neurologische oder psychiatrische Erkrankung
+	1 = neurologische oder psychiatrische Erkrankung
+
+ill
+	0 = niemals an Covid19 erkrankt
+	1 = an Covid19 erkrankt
+
+prt
+	0 = niemals positiver Schnelltest
+	1 = positiver Schnelltest
+
+pcr
+	0 = niemals positiver PCR-Test
+	1 = positiver PCR-Test
+pab
+	0 = niemals positiver Antikörpernachweis
+	1 = positiver Antikörpernachweis
+
+
+
+
