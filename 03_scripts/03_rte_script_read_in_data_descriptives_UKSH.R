@@ -1,3 +1,5 @@
+# RTE Script Kara Hass (stu214923@mail.uni-kiel.de) (07/2022) on the basis of the script of Merle Schuckart (merle.schuckart@gmx.de) 03/2022
+
 # 1. reading in data
 
 # 1.1 set working directory
