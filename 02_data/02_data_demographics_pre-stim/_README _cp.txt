@@ -1,0 +1,1 @@
+Die Datenendung _cp steht für combined + preceding stimulus, also: Datensatz mit demografischen Daten und der Spalte des vorhergehenden Stimulus.
